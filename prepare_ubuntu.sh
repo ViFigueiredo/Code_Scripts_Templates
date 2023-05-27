@@ -20,7 +20,7 @@ git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Instalação do Fzf
-~/.fzf/install
+yes | ~/.fzf/install
 
 # Alteração do tema no arquivo ~/.zshrc
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
