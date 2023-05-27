@@ -38,4 +38,30 @@ source ~/.nvm/nvm.sh
 nvm install v18.16.0
 nvm use v18.16.0
 
+# Iniciar o shell Zsh
+zsh
+
+# Respostas às perguntas do Powerlevel10k
+expect -c '
+spawn p10k configure
+send "n\n"
+send "n\n"
+send "n\n"
+send "y\n"
+send "2\n"
+send "1\n"
+send "3\n"
+send "2\n"
+send "2\n"
+send "1\n"
+send "2\n"
+send "2\n"
+send "4\n"
+send "2\n"
+send "2\n"
+send "y\n"
+send "1\n"
+send "y\n"
+expect "
+
 
