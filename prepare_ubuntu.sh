@@ -40,6 +40,7 @@ nvm use v18.16.0
 
 # Iniciar o shell Zsh
 zsh
+chsh -s $(which zsh)
 
 # Respostas às perguntas do Powerlevel10k
 # echo -e "n\nn\nn\nn\n2\n3\n2\n2\n2\n2\n2\ny\n1\ny\ny"
