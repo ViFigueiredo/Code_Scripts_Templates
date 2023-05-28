@@ -26,7 +26,7 @@ yes | ~/.fzf/install
 # sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 
 # Substituição dos plugins no arquivo ~/.zshrc
-sed -i 's/plugins=(git)/plugins=( git  zsh-syntax-highlighting fzf zsh-autosuggestions k )/' ~/.zshrc
+sed -i 's/plugins=(git)/plugins=( git zsh-syntax-highlighting fzf zsh-autosuggestions k )/' ~/.zshrc
 
 # Configuração inicial do git
 git config --global user.name "Vi Figueiredo"
