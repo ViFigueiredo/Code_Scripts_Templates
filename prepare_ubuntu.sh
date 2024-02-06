@@ -20,6 +20,6 @@ sed -i 's/plugins=(git)/plugins=( git docker zsh-syntax-highlighting fzf zsh-aut
 echo "dev" | chsh -s $(which zsh) && exec zsh
 
 # NVM e Node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install --lts
