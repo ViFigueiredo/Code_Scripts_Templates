@@ -9,7 +9,7 @@ sudo apt update
 
 # Git
 git config --global user.name "Vi Figueiredo"
-git config --global user.email vifigcode@gmail.com.br
+git config --global user.email vifigueiredo@outlook.com.br
 
 # Terminal ZSH e Plugins
 sudo apt-get install zsh fonts-powerline -y
