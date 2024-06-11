@@ -3,7 +3,7 @@
 # Sistema, pacotes e ppas
 sudo apt update
 sudo apt upgrade -y
-sudo apt install software-properties-common wget curl python3-launchpadlib -y
+sudo apt install software-properties-common git wget curl python3-launchpadlib -y
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 
